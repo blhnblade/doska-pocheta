@@ -14,7 +14,7 @@
 }
 @media(max-width: 491px){
     .reason{
-        padding: 3rem 0 0 0;
+        padding: 0.5rem 0 0 0;
     }
 }
 
@@ -61,7 +61,7 @@
 }
 @media(max-width: 790px){
     .reason__heading{
-        font-size: 1.7rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -76,11 +76,11 @@
 }
 @media(max-width: 991px){
     .reason__paragraph{
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
 }
 @media(max-width: 790px){
     .reason__paragraph{
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
 }

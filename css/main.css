@@ -9,7 +9,7 @@
 }
 @media(max-width: 790px){
     .main__toi{
-        padding: 1.875rem 0 0 0;
+        padding: 0.5rem 0 0 0;
         background-position: center;
     }
 }
@@ -48,7 +48,7 @@
 }
 @media(max-width: 790px){
     .main__paragraph{
-        font-size: 3.2rem;
+        font-size: 2rem;
     }
 }
 

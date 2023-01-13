@@ -3,7 +3,7 @@
 }
 @media(max-width: 790px){
     .header{
-        padding: 0.3rem 0 1.5625rem 0;
+        padding: 0.3rem 0 1rem 0;
     }
 }
 @media(max-width: 491px){
@@ -51,17 +51,17 @@
 }
 @media(max-width: 790px){
     .menu__heading h1{
-        font-size: 4.625rem;
+        font-size: 2.5rem;
     }
 }
 @media(max-width: 491px){
     .menu__heading h1{
-        font-size: 4rem;
+        font-size: 2rem;
     }
 }
 @media(max-width: 415px){
     .menu__heading h1{
-        font-size: 3.3rem;
+        font-size: 1.9rem;
     }
 }
 
