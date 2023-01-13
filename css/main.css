@@ -1,6 +1,5 @@
 .main__toi{
-    /* background-image: url(../img/main__photo-toi.jpg); */
-    background-color: brown;
+    background-image: url(../img/main__photo-toi.jpg);
     padding: 0.5rem 0 0.9375rem 0;
     background-size: cover;
     background-repeat: no-repeat;
