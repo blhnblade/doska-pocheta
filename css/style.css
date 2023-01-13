@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: 	#FFFF33;
+}
+@media(max-width: 991px){
+    html{
+        font-size: 13px;
+    }
+}
+@media(max-width: 790px){
+    html{
+        font-size: 11px;
+    }
+}
+
+
+body{
+    background-image: url(../img/bcg_bodyjpg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    -ms-user-select: none; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none; 
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+body::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);  
+    z-index: -1;
+}
+
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+@media(max-width: 790px){
+    .wrapper{
+        padding: 0 0.625rem;
+    }
+}
+
+
+.container{
+    max-width: 60rem;
+    margin: 0 auto;
+}

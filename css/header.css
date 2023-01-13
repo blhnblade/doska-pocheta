@@ -1,0 +1,176 @@
+.header{
+    padding: 0.3125rem 0 1.2rem 0;
+}
+@media(max-width: 790px){
+    .header{
+        padding: 0.3rem 0 1.5625rem 0;
+    }
+}
+@media(max-width: 491px){
+    .header{
+        padding: 0.5rem 0 5rem 0;
+    }
+}
+
+
+.menu__bcg{
+    background-image: url(../img/header_image_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -9.8rem;
+    border-radius: 0.625rem;
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+
+.menu{
+    display: block;
+    grid-template-columns: 1fr;
+    padding: 0.6rem 0;
+}
+@media(max-width: 790px){
+    .menu{
+        padding: 0.6rem 0;
+    }
+}
+
+
+.menu__heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2rem;
+}
+
+
+.menu__heading h1{
+    font-size: 2.625rem;
+    font-weight: 500;
+    text-shadow: 0rem 0.25rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+@media(max-width: 790px){
+    .menu__heading h1{
+        font-size: 4.625rem;
+    }
+}
+@media(max-width: 491px){
+    .menu__heading h1{
+        font-size: 4rem;
+    }
+}
+@media(max-width: 415px){
+    .menu__heading h1{
+        font-size: 3.3rem;
+    }
+}
+
+
+.menu__information-wrapper{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+
+.menu__information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.menu__information img{
+    width: 80%;
+    height: 80%;
+}
+@media(max-width: 491px){
+    .menu__information img{
+        width: 60%;
+        height: 60%;
+    }
+}
+@media(max-width: 415px){
+    .menu__information img{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+
+.menu__about{
+    display: block;
+    position: absolute;
+    margin-top: -0.625rem;
+    border-radius: 0.625rem;
+    padding: 0.625rem 0 0.625rem 1.5625rem;
+    max-width: 30rem;
+    right: 0;
+    background-image: url(../img/rust.jpg);
+    z-index: 99;
+}
+@media(max-width: 345px){
+    .menu__about{
+        text-align: center;
+        padding: 0.3125rem;
+    }
+}
+.menu__about p{
+    font-size: 0.9rem;
+}
+
+
+.hidden{
+    display: none;
+    opacity: 0;
+}
+
+
+.about__hidden{
+    animation-name: fadeIn;
+    animation-duration: .1s;
+    backface-visibility: hidden;
+}
+
+
+.about__visible{
+    animation-name: fadeOut;
+    animation-duration: .1s;
+    animation-fill-mode: forwards;
+    backface-visibility: hidden; 
+}
+
+
+@keyframes fadeIn{
+    0%{
+        opacity: 1;
+        display: block;
+    }
+    99%{
+        opacity: 0;
+        display: block;
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
+}
+
+
+@keyframes fadeOut{
+    0%{
+        opacity: 0;
+        display: none;
+    }
+    99%{
+        opacity: 0;
+        display: block;
+
+    }
+    100%{
+        opacity: 1;
+        display: block;
+    }
+}

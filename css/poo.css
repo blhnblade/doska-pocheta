@@ -1,0 +1,16 @@
+.poo{
+    display: block;
+    max-width: 2.5rem;
+    position: absolute;
+    /* top: 50%; */
+    /* left: 10%; */
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+
+.trace{
+    display: block;
+    max-width: 70px;
+    position: absolute;
+}

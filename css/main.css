@@ -1,0 +1,59 @@
+.main__toi{
+    background-image: url(../img/main__photo-toi.jpg);
+    padding: 0.5rem 0 0.9375rem 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -1.875rem;
+    border-radius: 0.625rem;
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.3);
+}
+@media(max-width: 790px){
+    .main__toi{
+        padding: 1.875rem 0 0 0;
+        background-position: center;
+    }
+}
+@media(max-width: 491px){
+
+}
+
+
+.main__photo{
+    max-width: 20rem;
+    max-height: 20rem;
+    margin: 0 auto 175px;
+    box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    border-radius: 0.625rem;
+}
+
+
+.main__photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center -6.25rem;
+}
+
+
+.main__paragraph{
+    text-align: center;
+    font-size: 1.875rem;
+    text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.3);
+}
+@media(max-width: 991px){
+    .main__paragraph{
+        font-size: 2.4rem;
+    }
+}
+@media(max-width: 790px){
+    .main__paragraph{
+        font-size: 3.2rem;
+    }
+}
+
+
+.main__bcg{
+    /* position: relative; */
+    overflow: hidden;
+}

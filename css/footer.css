@@ -1,0 +1,86 @@
+.reason{
+    padding: 1rem 0 0 0;
+    
+}
+@media(max-width: 991px){
+    .reason{
+        padding: 5rem 0 0 0;
+    }
+}
+@media(max-width: 790px){
+    .reason{
+        padding: 7rem 0 2.4rem 0;
+    }
+}
+@media(max-width: 491px){
+    .reason{
+        padding: 3.5rem 0 0 0;
+    }
+}
+
+
+.reason__container{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    background-color: black;
+    border-radius: 0.625rem;
+    box-shadow: 0rem 0.25rem 0.25rem rgb(0 0 0 / 30%);
+    padding: 1rem;
+    background-image: url(../img/rust.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media(max-width: 991px){
+    .reason__container{
+        padding: 2rem 1rem;
+    }
+}
+@media(max-width: 790px){
+    .reason__container{
+        padding: 2rem 1rem;
+        grid-template-columns: 4fr 9fr;
+    }
+}
+@media(max-width: 491px){
+    .reason__container{
+        padding: 1rem 0.5rem;
+    }
+}
+
+
+.reason__heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width: 991px){
+    .reason__heading{
+        font-size: 1.3rem;
+    }
+}
+@media(max-width: 790px){
+    .reason__heading{
+        font-size: 1.7rem;
+    }
+}
+
+
+.reason__paragraph{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0rem 0.25rem 0.25rem rgb(0 0 0 / 30%);
+    font-size: 1.2rem;
+}
+@media(max-width: 991px){
+    .reason__paragraph{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width: 790px){
+    .reason__paragraph{
+        font-size: 1.8rem;
+    }
+}
